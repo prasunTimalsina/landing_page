@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  padding: 16px;
+}
+
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+
+.nav-links {
+  width: 400px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: #e5e7eb;
+  margin-left: auto;
+}
