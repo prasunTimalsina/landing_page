@@ -111,7 +111,8 @@ li {
 }
 
 .mid-section h2 {
-  font-size: 30px;
+  font-size: 36px;
+  color: #1f2937;
   text-align: center;
 }
 
@@ -121,6 +122,7 @@ li {
   justify-content: center;
   gap: 200px;
   padding: 40px;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -152,4 +154,65 @@ li {
 
 .item-price {
   text-align: center;
+}
+
+.quote-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  background-color: #e5e7eb;
+  gap: 5px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 250;
+}
+
+.author {
+  font-size: 22px;
+  margin-left: auto;
+}
+
+.cta {
+  margin-top: 50px;
+  padding: 100px;
+  color: #eff0f3;
+}
+
+.cta-content {
+  background-color: #3882f6;
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+  border-radius: 8px;
+}
+
+.cta-text {
+  width: 72%;
+}
+
+.cta-text h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.cta-text p {
+  width: 72%;
+}
+
+.cta-content button {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+  background-color: #3882f6;
+  height: 35px;
+  width: 110px;
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  border: 2px solid #eff0f3;
 }
