@@ -29,6 +29,8 @@ li {
   height: 300px;
   width: 500px;
   background-size: contain;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
 }
 
 .nav {
@@ -100,4 +102,54 @@ li {
 .hero-text button:hover {
   border: 2px solid #eff0f3;
   background-color: #6f89bb;
+}
+
+.mid-section {
+  margin-top: 50px;
+  width: 100%;
+  padding: 40px;
+}
+
+.mid-section h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 40px;
+}
+
+.item {
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.327);
+  border-radius: 3px;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.item-1 {
+  background-image: url(images/birkenstock.jpg);
+}
+
+.item-2 {
+  background-image: url(images/Dunks.jpg);
+}
+
+.item-3 {
+  background-image: url(images/sweater.jpg);
+}
+
+.item-name {
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.item-price {
+  text-align: center;
 }
